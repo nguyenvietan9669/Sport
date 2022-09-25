@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+}
+
+.nav-bar{
+    margin-left: 40px;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-item{
+    font-size: 16px;
+}

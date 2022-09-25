@@ -1,0 +1,44 @@
+.footer{
+    margin: 100px 0;
+    border-top: 2px solid #fff;
+    position: relative;
+}
+
+.wrapper{
+    padding:16px 32px;
+    display: flex;
+    flex-direction: column;
+    gap:5rem
+}
+
+.list-icon{
+    margin: 10rem auto 0;
+}
+
+.icon{
+    width: 3.2em;
+    height: 3.2rem;
+}
+
+.icon + .icon {
+    margin-left: 4rem;
+}
+
+.logo{
+    width: 16rem;
+    margin: auto;
+}
+
+.footer-blur-left{
+    width: 20rem;
+    height: 20rem;
+    top: 10rem;
+    left: 30%;
+}
+.footer-blur-right{
+    width: 20rem;
+    height: 20rem;
+    top: 10rem;
+    left: 60%;
+    background-color: red;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 100px 32px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap:2rem;
+}
+
+.text {
+    font-size: 4.8rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.category{
+    margin-top: 3.2rem;
+    gap:2rem;
+    display: flex;
+}

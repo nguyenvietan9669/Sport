@@ -1,0 +1,66 @@
+.wrapper {
+    margin: 100px 32px 0;
+    display: flex;
+    gap:10rem
+}
+
+.left {
+    flex:1;
+    position: relative;
+}
+
+.bar{
+    position: absolute;
+    width: 17rem;
+    height: 0.4rem;
+    background-color: var(--orange);
+}
+
+.title{
+    width: 100%;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.item {
+    display: flex;
+}
+
+.text{
+    width: fit-content;
+}
+
+.text + .text{
+    margin-left: 2rem;
+}
+
+.right {
+    flex:1;
+    position: relative;
+}
+
+.email {
+    position: absolute;
+    bottom: 0;
+    padding: 1.6rem 3.2rem;
+    background-color: var(--gray);
+}
+
+.input{ 
+    border-color: transparent;
+    outline: none;
+    background-color: transparent;
+    caret-color: #fff;
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+.btn-join{
+    margin-left: 2rem;
+    padding: .8rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--orange);
+    border: none;
+}
+
